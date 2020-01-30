@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-long long n,m,clib,croad,ans;
+long long n, m, clib, croad, ans;
 #define ll long long
 vector <ll> parent(101000,0);
 
@@ -35,7 +35,7 @@ int main(){
             vect.push_back({a, b});
         }
         if(clib<=croad){
-            cout<<n*clib;
+            cout<<n*clib<<endl;
             continue;
         }
         for(ll i=0; i<m; i++){

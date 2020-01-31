@@ -1,3 +1,4 @@
+// An awesome approach using Disjoint set union
 #include<bits/stdc++.h>
 using namespace std;
 long long n, m, clib, croad, ans;
